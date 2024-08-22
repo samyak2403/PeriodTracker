@@ -5,8 +5,9 @@
 
 ## 📲 Download the APK:
 <a href="https://github.com/samyak2403/PeriodTracker/raw/master/app/release/app-release.apk">
-  <img src="https://github.com/user-attachments/assets/a0c5dcca-d0dc-477b-b864-98c13e12d15d" alt="Download Love Calculator APK" style="width: 300px; height: auto;">
+  <img src="https://github.com/user-attachments/assets/a0c5dcca-d0dc-477b-b864-98c13e12d15d" alt="Download Love Calculator APK" style="width: 300px; height: auto;"> <img src="https://github.com/user-attachments/assets/146f069a-fded-48ff-b0fd-f50be7537cde" alt="Download Love Calculator APK" style="width: 300px; height: auto;">
 </a>
+
 
 ## Overview
 
