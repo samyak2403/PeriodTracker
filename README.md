@@ -6,6 +6,19 @@ PeriodTracker is a comprehensive Android application designed for women to track
 
 ## Features
 
+## Screenshots
+
+| Screenshot 1 | Screenshot 2 |
+|--------------|--------------|
+| <img src="1.png" width="250px"/> | <img src="2.png" width="250px"/> |
+| <img src="3.png" width="250px"/> | <img src="4.png" width="250px"/> |
+| <img src="5.png" width="250px"/> | <img src="6.png" width="250px"/> |
+| <img src="7.png" width="250px"/> | <img src="8.png" width="250px"/> |
+| <img src="9.png" width="250px"/> | <img src="10.png" width="250px"/> |
+| <img src="11.png" width="250px"/> | <img src="12.png" width="250px"/> |
+| <img src="13.png" width="250px"/> | <img src="14.png" width="250px"/> |
+| <img src="15.png" width="250px"/> | <img src="16.png" width="250px"/> |
+
 ### Menstrual Cycle Tracking
 - **Period Logging:** Easily log the start and end dates of your menstrual cycle.
 - **Cycle Length Tracking:** Monitor the length of your cycles over time to identify patterns.
