@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/app_primary_color"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
+            android:text="@string/how_long_is_your_period"
+            android:fontFamily="@font/app_font_bold" />
+
+        <TextView
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/bleeding_usually_lasts_between_4_7_days" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/period_length"
+            android:fontFamily="@font/app_font_bold" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/prevBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_next"
+                android:scaleX="-1"
+                app:tint="@color/app_primary_color" />
+
+            <TextView
+                android:textSize="@dimen/inp_text_size"
+                android:textColor="@color/black"
+                android:id="@+id/cycleLengthInp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="6" />
+
+            <ImageView
+                android:id="@+id/nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_next"
+                app:tint="@color/app_primary_color" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/intro_2_ind" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:textColor="@color/app_primary_color"
+                android:id="@+id/backSessionBtn"
+                android:background="@drawable/rounded_btn_bg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/back"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/white"
+                style="?android:attr/borderlessButtonStyle" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:textColor="@color/white"
+                android:id="@+id/nextSessionBtn"
+                android:background="@drawable/rounded_btn_bg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/next"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/app_primary_color"
+                style="?android:attr/borderlessButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</layout>

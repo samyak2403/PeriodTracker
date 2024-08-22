@@ -9,6 +9,13 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        // Deprecated, but some older libraries might still require it
+        jcenter()
+
+        // JitPack repository for GitHub-based libraries
+        maven { url = uri("https://jitpack.io") }
+        // Google's Maven repository, usually used for Android libraries
+        maven { url = uri("https://maven.google.com") }
     }
 }
 dependencyResolutionManagement {
@@ -16,6 +23,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
+        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://maven.google.com") }
     }
 }
 

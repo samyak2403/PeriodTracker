@@ -2,4 +2,42 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="app_primary_color">#ff6aa6</color>
+
+    <color name="app_secondary_color">#fff3f3</color>
+
+    <color name="dark_grey">#eeeeee</color>
+    <color name="light_grey">#c8c8c8</color>
+    <color name="btn_bg_light">#f5f5f5</color>
+    <color name="app_red_color">#ea0000</color>
+    <color name="main_bg_color">#ff6aa6</color>
+    <color name="half_transparent_color">#b2ffffff</color>
+    <color name="input_screen_bg_color">#ffebf7</color>
+    <color name="next_period_bg_color">#ffeded</color>
+    <color name="next_period_front_color">#ea0000</color>
+    <color name="next_ovulation_bg_color">#fef8ee</color>
+    <color name="next_ovulation_front_color">#ea0000</color>
+    <color name="fertile_days_bg_color">#f6fbff</color>
+    <color name="fertile_days_front_color">#1487ec</color>
+    <color name="safe_days_bg_color">#ffe9f2</color>
+    <color name="safe_days_front_color">#e72971</color>
+    <color name="theme10">#ff00aa</color>
+    <color name="theme_7_bg">#ffe1f0</color>
+    <color name="theme8">#000000</color>
+    <color name="theme9">#006517</color>
+    <color name="theme1">#f5414f</color>
+    <color name="theme_1_bg">#e9e6ff</color>
+    <color name="theme2">#49a6f8</color>
+    <color name="theme_2_bg">#ffe1f0</color>
+    <color name="theme3">#81c1fa</color>
+    <color name="theme_3_bg">#e5e7ff</color>
+    <color name="theme4">#ff0470</color>
+    <color name="theme_4_bg">#ffe1f0</color>
+    <color name="theme5">#db86ff</color>
+    <color name="theme_5_bg">#ffe1f0</color>
+    <color name="theme6">#81c1fa</color>
+    <color name="theme_6_bg">#ffe1f0</color>
+    <color name="theme7">#9fd3e8</color>
+    <color name="safe_days_cal_color">#ff9292</color>
+    <color name="fertile_days_cal_color">#e2ff2a</color>
 </resources>

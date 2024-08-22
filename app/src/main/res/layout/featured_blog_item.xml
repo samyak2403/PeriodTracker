@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/app_red_color"
+    app:cardCornerRadius="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/opacityView"
+        android:background="#33000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/headingTv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Heading Tv"
+            android:layout_weight="1"
+            android:lineSpacingExtra="-15dp"
+            android:fontFamily="@font/app_font_bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="100dp" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="#66000000"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/white"
+                android:ellipsize="end"
+                android:id="@+id/questionTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="This is demo detail text for your question excellent mind blowing history"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:fontFamily="arial"
+                android:layout_marginEnd="15dp" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_next_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

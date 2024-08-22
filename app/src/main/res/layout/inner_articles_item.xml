@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_shape_bg"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="5dp"
+        app:shapeAppearanceOverlay="@style/rounded_theme" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp">
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:id="@+id/headingTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="heading"
+            android:maxLines="2"
+            android:lineSpacingExtra="-10dp"
+            android:fontFamily="@font/app_font_bold" />
+
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/descTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="body"
+            android:maxLines="2"
+            android:lineSpacingExtra="-10dp"
+            android:fontFamily="@font/app_font_bold"
+            android:layout_marginStart="5dp" />
+    </LinearLayout>
+</LinearLayout>

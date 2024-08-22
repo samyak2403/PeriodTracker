@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cal_icons_size">40dp</dimen>
+    <dimen name="top_padding">30dp</dimen>
+    <dimen name="settings_text_size">18sp</dimen>
+    <dimen name="top_margin">120dp</dimen>
+    <dimen name="inp_text_size">25sp</dimen>
+    <dimen name="radius">10dp</dimen>
+</resources>

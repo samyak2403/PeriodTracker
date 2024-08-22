@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_primary_color"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.34">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon200" />
+        </LinearLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:textColor="@color/lightPrimaryText"-->
+    <!--        android:id="@+id/title"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="8dp"-->
+    <!--        android:text="@string/app_name"-->
+    <!--        android:layout_above="@+id/app_info"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:fontFamily="@font/medium"-->
+    <!--        style="@style/TextAppearance.AppCompat.Headline" />-->
+
+    <!--    <TextView-->
+    <!--        android:textColor="@color/lightPrimaryText"-->
+    <!--        android:id="@+id/app_info"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="48dp"-->
+    <!--        android:text="Made with ❤ in India"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:fontFamily="@font/medium"-->
+    <!--        style="@style/TextAppearance.AppCompat.Caption" />-->
+
+    <LinearLayout
+        android:gravity="bottom|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.33">
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:lottie_rawRes="@raw/loading"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+    </LinearLayout>
+</LinearLayout>

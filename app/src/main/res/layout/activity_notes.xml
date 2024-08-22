@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_secondary_color"
+
+        >
+    <RelativeLayout
+        android:layout_above="@id/banner1"
+        android:id="@+id/parentLayout"
+        android:background="@color/app_secondary_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/inputArea"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/app_primary_color"
+                android:id="@+id/dateTv"
+                android:background="@drawable/rounded_shape_bg"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Date"
+                android:backgroundTint="@color/white"
+                app:drawableEndCompat="@drawable/ic_down"
+                app:drawableTint="@color/app_primary_color" />
+
+            <EditText
+                android:textSize="18sp"
+                android:textColor="@color/app_primary_color"
+                android:textColorHint="@color/app_primary_color"
+                android:gravity="start|top"
+                android:id="@+id/dairyNoteInp"
+                android:background="@drawable/rounded_shape_bg"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="@string/write_your_symptoms_here"
+                android:inputType="textMultiLine"
+                android:backgroundTint="@color/white" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:textColor="@color/app_primary_color"
+                    android:id="@+id/cancelBtn"
+                    android:background="@drawable/rounded_shape_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/cancel"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/white" />
+
+                <Button
+                    android:textColor="@color/white"
+                    android:id="@+id/saveBtn"
+                    android:background="@drawable/rounded_shape_bg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/save"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/app_primary_color" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/detailArea"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/diaryNotesRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/emptyTv"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="@string/empty"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/addBtn"
+            android:visibility="gone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/ic_add"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:tint="@color/app_primary_color" />
+    </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/banner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+            <RelativeLayout
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</layout>
