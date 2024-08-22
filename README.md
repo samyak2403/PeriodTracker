@@ -1,6 +1,6 @@
 # PeriodTracker App
 <img src="https://github.com/samyak2403/PeriodTracker/blob/master/app/src/main/res/drawable/menstrualcycle.png" width="100px"/>
-
+![pv](https://pageview.vercel.app/?github_user=PeriodTracker)
 
 ## 📲 Download the APK:
 <a href="https://github.com/samyak2403/PeriodTracker/raw/master/app/release/app-release.apk">
