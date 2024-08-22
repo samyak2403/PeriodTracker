@@ -1,4 +1,5 @@
-# PeriodTracker App <img src="https://github.com/samyak2403/PeriodTracker/blob/master/app/src/main/res/drawable/menstrualcycle.png" width="100px"/>
+# PeriodTracker App
+<img src="https://github.com/samyak2403/PeriodTracker/blob/master/app/src/main/res/drawable/menstrualcycle.png" width="100px"/>
 
 
 ## 📲 Download the APK:
