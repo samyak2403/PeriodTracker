@@ -47,3 +47,17 @@ PeriodTracker is a comprehensive Android application designed for women to track
    ```bash
    git clone https://github.com/samyak2403/PeriodTracker.git
    cd PeriodTracker
+
+
+   ## Open the Project in Android Studio
+
+1. **Open the Project:**
+   - Go to `File > Open` and select the `PeriodTracker` project directory.
+   
+2. **Build the Project:**
+   - Sync Gradle files and build the project.
+   
+3. **Run the App:**
+   - Connect your Android device or start an emulator.
+   - Click on the "Run" button in Android Studio to install and launch the app on your device.
+
