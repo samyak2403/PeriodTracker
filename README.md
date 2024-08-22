@@ -61,3 +61,14 @@ PeriodTracker is a comprehensive Android application designed for women to track
    - Connect your Android device or start an emulator.
    - Click on the "Run" button in Android Studio to install and launch the app on your device.
 
+Contributing
+
+We welcome contributions to the PeriodTracker app! If you have ideas for new features or improvements, please submit a pull request or open an issue on GitHub.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Contact
+
+For any questions or suggestions, please contact Samyak Kamble.
