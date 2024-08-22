@@ -81,7 +81,8 @@ We welcome contributions to the PeriodTracker app! If you have ideas for new fea
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
 
 ## Contact
 
