@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1aa14d35-9127-427a-aca6-84922330b8a8)# PeriodTracker App
+# PeriodTracker App
 <img src="https://github.com/samyak2403/PeriodTracker/blob/master/app/src/main/res/drawable/menstrualcycle.png" width="100px"/>
 
 ![pv](https://pageview.vercel.app/?github_user=PeriodTracker)
