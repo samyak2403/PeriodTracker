@@ -1,4 +1,4 @@
-# PeriodTracker App
+![image](https://github.com/user-attachments/assets/1aa14d35-9127-427a-aca6-84922330b8a8)# PeriodTracker App
 <img src="https://github.com/samyak2403/PeriodTracker/blob/master/app/src/main/res/drawable/menstrualcycle.png" width="100px"/>
 
 ![pv](https://pageview.vercel.app/?github_user=PeriodTracker)
@@ -10,8 +10,9 @@
 </a>
 
 
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID&autoplay=1)
 
-![Preview](https://github.com/user-attachments/assets/2d95f23b-48dd-47b4-9ded-515ae61ba30c.gif)
+
 
 
 
