@@ -9,20 +9,11 @@
   <img src="https://github.com/user-attachments/assets/a0c5dcca-d0dc-477b-b864-98c13e12d15d" alt="Download Love Calculator APK" style="width: 300px; height: auto;"> <img src="https://github.com/user-attachments/assets/146f069a-fded-48ff-b0fd-f50be7537cde" alt="Download Love Calculator APK" style="width: 300px; height: auto;">
 </a>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Player</title>
-</head>
-<body>
-    <video width="640" height="360" controls>
-        <source src="https://rr5---sn-gwpa-o5br.googlevideo.com/videoplayback?expire=1724945262&ei=7iLQZr_lBcyIn88P3Of8cA&ip=152.57.7.233&id=3274b712c4bf4f7d&itag=18&source=blogger&xpc=Egho7Zf3LnoBAQ%3D%3D&mh=Gw&mm=31&mn=sn-gwpa-o5br&ms=au&mv=m&mvi=5&pcm2cms=yes&pl=19&susc=bl&eaua=ltUL3mg8rgI&mime=video/mp4&vprv=1&rqh=1&dur=48.785&lmt=1724896717551427&mt=1724916078&txp=1311224&sparams=expire,ei,ip,id,itag,source,xpc,susc,eaua,mime,vprv,rqh,dur,lmt&sig=AJfQdSswRQIgA3iBA7_E6HqXUlPUjymEU2NEgxwL7P4xb4pAIFjtX_oCIQDOoaTFZ_O4hQLhxJKL0tUDRPJaTBNKa0fdB0FJtpvybQ%3D%3D&lsparams=mh,mm,mn,ms,mv,mvi,pcm2cms,pl&lsig=AGtxev0wRAIgG2IsYi14Y5dRrTNNZTwPBGN4he1I0V_NV5qRbI2TAJQCICLFCvPWSyL1GEvWf0b5W76E0B5NB1AQyGoXIUcEVUrP&cpn=Mkk5mWp5bBVSGh93&c=WEB_EMBEDDED_PLAYER&cver=1.20240826.01.00" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</body>
-</html>
+
+
+https://github.com/user-attachments/assets/2d95f23b-48dd-47b4-9ded-515ae61ba30c
+
+
 
 
 ## Overview
