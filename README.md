@@ -46,6 +46,17 @@ PeriodTracker is a comprehensive Android application designed for women to track
 | <img src="13.png" width="250px"/> | <img src="14.png" width="250px"/> |
 | <img src="15.png" width="250px"/> | <img src="16.png" width="250px"/> |
 
+
+## Star History
+
+<a href="https://star-history.com/#samyak2403/Indian-IPTV-App&samyak2403/PeriodTracker&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=samyak2403/Indian-IPTV-App,samyak2403/PeriodTracker&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=samyak2403/Indian-IPTV-App,samyak2403/PeriodTracker&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=samyak2403/Indian-IPTV-App,samyak2403/PeriodTracker&type=Date" />
+ </picture>
+</a>
+
 ### Menstrual Cycle Tracking
 - **Period Logging:** Easily log the start and end dates of your menstrual cycle.
 - **Cycle Length Tracking:** Monitor the length of your cycles over time to identify patterns.
