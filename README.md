@@ -49,11 +49,11 @@ PeriodTracker is a comprehensive Android application designed for women to track
 
 ## Star History
 
-<a href="https://star-history.com/#samyak2403/Indian-IPTV-App&samyak2403/PeriodTracker&Date">
+<a href="https://star-history.com/#samyak2403/PeriodTracker&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=samyak2403/Indian-IPTV-App,samyak2403/PeriodTracker&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=samyak2403/Indian-IPTV-App,samyak2403/PeriodTracker&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=samyak2403/Indian-IPTV-App,samyak2403/PeriodTracker&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=samyak2403/PeriodTracker&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=samyak2403/PeriodTracker&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=samyak2403/PeriodTracker&type=Date" />
  </picture>
 </a>
 
