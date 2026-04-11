@@ -40,4 +40,6 @@
     <color name="theme7">#9fd3e8</color>
     <color name="safe_days_cal_color">#ff9292</color>
     <color name="fertile_days_cal_color">#e2ff2a</color>
+    <color name="safe_days_cal_color_light">#4DFF9292</color>
+    <color name="fertile_days_cal_color_light">#4DE2FF2A</color>
 </resources>

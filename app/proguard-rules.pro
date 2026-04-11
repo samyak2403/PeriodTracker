@@ -28,3 +28,8 @@
 
 -dontwarn com.androidlab.bokehoverlay.**
 
+# CalendarView ProGuard Rule
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context);
+}
+

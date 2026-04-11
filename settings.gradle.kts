@@ -9,23 +9,20 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
-        // Deprecated, but some older libraries might still require it
-        jcenter()
 
         // JitPack repository for GitHub-based libraries
         maven { url = uri("https://jitpack.io") }
-        // Google's Maven repository, usually used for Android libraries
-        maven { url = uri("https://maven.google.com") }
     }
+}
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        jcenter()
         maven { url = uri("https://jitpack.io") }
-        maven { url = uri("https://maven.google.com") }
     }
 }
 

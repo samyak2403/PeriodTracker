@@ -46,14 +46,12 @@
                     android:text="date"
                     android:fontFamily="@font/app_font_bold" />
 
-                <com.haibin.calendarview.CalendarView
+                <com.kizitonwose.calendar.view.CalendarView
                     android:id="@+id/calendarView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:month_view_show_mode="mode_only_current"
-                    app:week_background="@android:color/transparent"
-                    app:week_text_color="@color/black"
-                    app:week_text_size="18sp" />
+                    app:cv_dayViewResource="@layout/calendar_day_layout"
+                    app:cv_monthHeaderResource="@layout/calendar_header" />
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:textStyle="bold"

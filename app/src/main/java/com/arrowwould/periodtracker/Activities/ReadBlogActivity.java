@@ -29,7 +29,6 @@ import com.arrowwould.periodtracker.Model.FeaturedBlog;
 import com.arrowwould.periodtracker.Utils.ImageUtils;
 import com.arrowwould.periodtracker.Utils.Utils;
 import com.arrowwould.periodtracker.databinding.ActivityReadBlogBinding;
-;
 import com.google.android.material.appbar.AppBarLayout;
 import com.arrowwould.periodtracker.R;
 import java.util.ArrayList;
