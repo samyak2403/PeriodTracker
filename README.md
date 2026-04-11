@@ -111,6 +111,10 @@ PeriodTracker is a comprehensive Android application designed for women to track
 3. **Run the App:**
    - Connect your Android device or start an emulator.
    - Click on the "Run" button in Android Studio to install and launch the app on your device.
+  
+     **!!!!THE CALENDAR VIEW 3.6.4 DOES NOT WORK DIRECTLY,** SO DOWNLOAD THIS MIRRORED CALENDER VIEW --> https://maven.joyyinc.com/nexus/content/repositories/public/com/haibin/calendarview/3.6.4/calendarview-3.6.4.aar  ...MAKE A FOLDER IN "app/libs' add the downloaded calendar view and change the path of calendarview in build.gradle.kts(module:app) to this --> implementation(files("libs/calendarview-3.6.4.aar"))
+
+
 
 Contributing
 
